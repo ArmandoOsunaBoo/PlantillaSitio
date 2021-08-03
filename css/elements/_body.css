@@ -1,0 +1,20 @@
+@import url(../settings/_variables.css);
+
+body {
+  color: var(--text-color);
+  font-family: var(--font-family);
+  font-size: var(--fs-body);
+  line-height: 1.8;
+}
+
+/*
+@use "../settings/variables";
+
+body {
+  color: variables.$text-color;
+  font-family: variables.$font-family;
+  font-size: variables.$fs-body;
+  line-height: 1.8;
+}
+
+*/

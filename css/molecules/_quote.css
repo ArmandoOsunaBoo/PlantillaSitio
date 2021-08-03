@@ -1,0 +1,33 @@
+@import url(../settings/variables);
+@import url(../tool/mixins);
+
+.m-quote__attribution {
+	align-items: flex-start;
+	margin-top: 1rem; 
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.62rem;
+}
+
+.m-quote__attribution > * {
+  flex-basis: 3.25rem;
+  flex-grow: 1;
+}
+
+/*.m-quote__attribution > :#{
+  min-width: 50%;
+  flex-basis: 0;
+  flex-grow: 999;
+}*/
+
+.m-quote__author {
+	margin: 0;
+	font-weight: 600;
+  font-size: var(--fs-body);
+}
+
+.m-quote__image {
+	max-width: 3.25rem;
+	border-radius: 50%;
+}
+

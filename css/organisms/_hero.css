@@ -1,0 +1,34 @@
+@import url(../settings/variables);
+
+@import url(../tools/mixins);
+
+.g-hero {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+	padding-top: var(--spacing-l);
+	padding-bottom: var(--spacing-l);
+}
+
+.g-hero__info {
+	padding-right: 2rem;
+	font-size: var(--fs-lead);
+}
+
+.g-hero__media {
+	max-width: 33rem;
+	margin: 0 auto;
+}
+
+.g-hero p {
+	opacity: 0.9;
+}
+
+.g-hero .btn {
+	margin-top: 1rem;
+}
+
+.g-hero > * {
+	flex-basis: auto;
+	flex-grow: 1;
+}

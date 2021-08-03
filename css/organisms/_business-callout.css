@@ -1,0 +1,10 @@
+@import url(../settings/variables);
+
+.g-business-callout {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-muted-color);
+  gap: 1rem;
+}

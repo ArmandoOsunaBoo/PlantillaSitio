@@ -1,0 +1,23 @@
+@import url(../settings/variables);
+
+@import url(../tools/mixins);
+
+.g-subscribe {
+ 
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+  padding-top: var(--spacing-l);
+  padding-bottom: 5rem;   
+}
+
+.g-subscribe> :first-child {
+  padding-right: 10vw;
+}
+
+
+.g-subscribe > * {
+  flex-basis:25rem;
+  flex-grow: 1;
+}

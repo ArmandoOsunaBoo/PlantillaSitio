@@ -1,0 +1,28 @@
+:root{
+    --eucalyptus: #289f5f;
+    --green-pea: #19623b;
+    --baltic-sea: #282729;
+    --cod-gray: #181818;
+    --dove-gray: #666;
+    --boulder: #777;
+    --white: #fff;
+    --alabaster: #fafafa;
+    --gallery: #ececec;
+    
+    --primary-color:  $var(--eucalyptus);
+    --primary-dark-color:  $var(--green-pea );
+    
+    --background-dark-color: $var(--baltic-sea );
+    --background-darker-color: $var(--cod-gray );
+    --background-light-color: $var(--alabaster );
+    --background-lighter-color: $var( --white);
+    
+    --text-color: $var(--cod-gray);
+    --text-muted-color: $var( --dove-gray);
+    --text-inverted-color: $var(--white );
+    
+    --border-color: $var(--dove-gray );
+    --border-inverted-color: var(--gallery);
+/*   $var(--font-base)*/
+
+}

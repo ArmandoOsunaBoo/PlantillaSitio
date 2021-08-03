@@ -1,0 +1,21 @@
+@import url(../settings/variables);
+
+
+.g-courses {
+	border-bottom: 1px solid var(--border-inverted-color);
+	background: var(--background-light-color);
+}
+
+.g-courses__filters {
+	margin-bottom: 3rem;
+}
+
+.g-courses__grid {
+	column-width: 18rem;
+	gap: 1.87rem;
+}
+
+.g-courses__item {
+	margin-bottom: 1.87rem;
+	break-inside: avoid;
+} 

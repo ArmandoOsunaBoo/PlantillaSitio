@@ -1,0 +1,26 @@
+@import url(../settings/variables);
+
+@import url(../tools/mixins);
+
+.g-partners {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: var(--spacing-l);
+	padding-bottom: var(--spacing-l);
+}
+
+.g-partners__title {
+	margin: 0;
+	color: gray;
+}
+
+.g-partners__logo {
+	display: block;
+	max-height: 1.6rem;
+}
+
+.g-partners .ui-list--horizontal {
+	gap: 3.25rem;
+}

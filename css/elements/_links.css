@@ -1,0 +1,13 @@
+@import url(../settings/variables);
+
+a {
+  color: var(--primary-color);
+  text-decoration: underline;
+
+  
+}
+
+a:hover,
+  a:focus {
+    color: var(--primary-dark-color);
+  }

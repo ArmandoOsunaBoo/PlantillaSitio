@@ -1,0 +1,20 @@
+@import url(../settings/variables);
+
+.a-cover-background {
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  
+  background-color: var(--background-dark-color);
+  
+  color: var(--text-inverted-color);
+}
+
+.a-cover-background--plant {
+	background-image: url("../../img/bg/plant.jpg");
+}
+
+.a-cover-background--kayak {
+	background-image: url("../../img/bg/kayak.jpg");
+}

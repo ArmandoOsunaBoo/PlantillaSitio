@@ -1,0 +1,51 @@
+@import url(../settings/variables);
+
+.m-dropdown {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.m-dropdown__label {
+	display: inline-block;
+	margin-right: 1rem;
+	vertical-align: middle;
+}
+
+.m-dropdown__field {
+	position: relative;
+	display: inline-block;
+	min-width: 143px;
+	height: 3.71428571em;
+	padding: 1rem;
+    border: 1px solid var(--border-inverted-color);
+    background: var(--background-lighter-color);
+	border-radius: 6px;
+}
+
+.m-dropdown__list {
+	position: absolute;
+	top: 1rem;
+	left: 1rem;
+	overflow: hidden;
+	max-height: 1.85714286em;
+}
+
+.m-dropdown__item {
+	display: none;
+}
+
+.m-dropdown__item--active {
+	display: block;
+    color: var(--primary-dark-color);
+}
+
+.m-dropdown__item--active::after {
+	position: relative;
+	bottom: 2px;
+	display: inline-block;
+	margin-left: 6px;
+	content: "\25bc";
+	font-size: 8px;
+	transform: scaleX(1.4) scaleY(0.9);
+}

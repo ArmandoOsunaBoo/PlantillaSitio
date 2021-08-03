@@ -1,0 +1,8 @@
+@import url(../settings/variables);
+
+.a-box {
+  padding: 1.63rem;
+  background: rgba(var(--background-darker-color), 0.3);
+  border-radius: 0.37rem;
+  color: var(--text-inverted-color);
+}

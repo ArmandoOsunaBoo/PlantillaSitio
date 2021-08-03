@@ -1,0 +1,39 @@
+@import url(../settings/variables);
+
+@import url(../tools/mixins);
+
+.g-footer {
+	background: var(--background-dark-color);
+}
+
+.g-footer__links {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	font-size: var(--fs-footer);
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.g-footer__links img {
+	max-width: 1rem;
+	margin-left: 0.5rem;
+}
+
+.g-footer__legal {
+	padding-bottom: var(--spacing-l);
+	border-top: 1px solid var(--border-color);
+}
+
+.g-footer a {
+	color: var(--text-inverted-color);
+	opacity: 0.7;
+	text-decoration: none;
+	transition: all 0.2s;
+}
+
+.g-footer a:hover, .g-footer a:focus {
+	color: var(--text-inverted-color);
+	opacity: 1;
+}

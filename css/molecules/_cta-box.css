@@ -1,0 +1,39 @@
+@import url(../settings/variables);
+
+.m-cta-box {
+	position: relative;
+	padding-bottom: 4rem;
+}
+
+.m-cta-box__title {
+	padding-bottom: 1em;
+    border-bottom: 2px solid rgba(var(--border-inverted-color), 0.3);
+	margin: 0;
+	margin: 0.5em 0 1em;
+}
+
+.m-cta-box__title strong {
+	display: block;
+}
+
+.m-cta-box__note {
+	position: absolute;
+	top: 1.5rem;
+	right: 1.5rem;
+    font-size: var(--fs-pill);
+	text-transform: uppercase;
+}
+
+.m-cta-box__cta {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	text-align: center;
+}
+
+.m-cta-box__content > * {
+	margin-bottom: 0.5em;
+}

@@ -1,0 +1,10 @@
+@import url(../settings/variables);
+
+.a-lead {
+  font-size: var(--fs-lead);
+  line-height: 1.65;
+}
+
+.a-title {
+  font-size: var(--fs-title-l);
+}

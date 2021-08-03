@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root{
+    --font-family: 'Montserrat',"Open Sans", sans-serif;
+    --font-base: 16;
+    /* Typography scale */
+    --fs-9: 9 /var(--font-base) + rem;
+    --fs-12: 12 / $var(--font-base) + rem;
+    --fs-14: 14 / $var(--font-base) + rem;
+    --fs-19: 19 / $var(--font-base) + rem;
+    --fs-25: 25 / $var(--font-base) + rem;
+    --fs-33: 33 / $var(--font-base) + rem;
+    --fs-44: 44 / $var(--font-base) + rem;
+
+    /* Typography applications */
+    --fs-pill: $var(--fs-9);
+    --fs-btn: $var(--fs-12);
+    --fs-footer: $var(--fs-12);
+    --fs-menu: $var(--fs-14);
+    --fs-body: $var(--fs-14);
+    --fs-lead: $var(--fs-19);
+    --fs-title-s: $var(--fs-25);
+    --fs-title-m: $var(--fs-33);
+    --fs-title-l: $var(--fs-44);
+
+}

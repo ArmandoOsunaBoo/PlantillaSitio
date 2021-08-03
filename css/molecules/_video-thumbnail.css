@@ -1,0 +1,49 @@
+@import url(../settings/variables);
+
+.m-video-thumbnail {
+	position: relative;
+}
+
+.m-video-thumbnail__img {
+	display: block;
+	margin-bottom: 1.6rem;
+	border-radius: 0.5rem;
+}
+
+.m-video-thumbnail__play {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	display: block;
+	width: 5em;
+	height: 5em;
+	border: none;
+  background: var(--background-lighter-color);
+	border-radius: 50%;
+	cursor: pointer;
+	transform: translate(-50%, -50%);
+}
+
+.m-video-thumbnail__play::before {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border-width: 6px 0 6px 12px;
+	border-style: solid;
+  border-color: transparent transparent transparent var(--background-dark-color);
+	margin-top: -5px;
+	margin-top: -3px;
+	margin-left: -4px;
+	content: "";
+}
+
+.m-video-thumbnail__play--large {
+	width: 7.4em;
+	height: 7.4em;
+}
+
+.m-video-thumbnail__play:hover {
+	box-shadow: 0 23px 40px rgba(0, 0, 0, 0.2);
+}
